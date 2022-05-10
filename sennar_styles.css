@@ -1,0 +1,23 @@
+/*
+Sennar Website additional css stylesheet
+*/
+/*
+=============================
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+=============================
+Below box-sizing technique supports older versions of Safari (< 5.1), Chrome (< 10), and Firefox (< 29)
+=============================
+*/
+
+  html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+
+  }
